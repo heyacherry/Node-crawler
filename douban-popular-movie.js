@@ -6,7 +6,7 @@ Story : crawl the top20/40 popular movies from douban.movie.com
 
 var https = require("https");
 
-var url = "https://movie.douban.com/explore#!type=movie&tag=%E7%83%AD%E9%97%A8&sort=rank&page_limit=20&page_start=0";
+var url = "https://movie.douban.com/top250";
 
 
 // ES6 Arrow function
